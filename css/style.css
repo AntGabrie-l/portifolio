@@ -69,9 +69,9 @@ body {
 }
 
 .icone {
-    width: 32px;
-    height: 32px;
-    transition: transform 0.3s ease;
+    width: 32px !important; 
+    height: 32px !important;
+    object-fit: contain; 
 }
 
 .icone:hover {
